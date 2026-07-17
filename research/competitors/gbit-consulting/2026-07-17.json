@@ -1,0 +1,28 @@
+{
+  "competitor_name": "GBIT (Global Business & IT) Consulting Ltd",
+  "website": "https://gbit-consulting.com/",
+  "sources": [
+    "https://gbit-consulting.com/company-overview/"
+  ],
+  "summary": "Abuja-based SAP/ERP specialist consultancy with over a decade of implementation experience in high-value verticals.",
+  "offering": "SAP ERP implementation and functional support (Treasury, Logistics, SRM, Business Intelligence, e-Payment modules), IT infrastructure management, business process optimization, project management, and digital marketing services.",
+  "pricing": {
+    "model": "Project-based consulting fees",
+    "tiers": [],
+    "notes": "Quote-based; no published pricing."
+  },
+  "positioning": "Specialist SAP/ERP implementation partner for manufacturing, oil & gas, public sector, and financial services clients.",
+  "strengths": [
+    "13+ years in business/IT consulting with 11+ years of focused SAP ERP implementation experience",
+    "Deep SAP module expertise (Treasury, Logistics, SRM, BI, e-Payment) that generalist integrators may lack",
+    "Sector focus in high-value verticals (oil & gas, financial services, manufacturing)"
+  ],
+  "gaps_or_weaknesses": [
+    "Narrow SAP/ERP focus versus broader digital-transformation needs of clients",
+    "Less visible digital marketing/brand presence than Microsoft-ecosystem specialists like Cloudsa"
+  ],
+  "perceived_target_customer": "Large enterprises in oil & gas, manufacturing, and financial services needing SAP ERP implementation or ongoing functional support.",
+  "confidence_notes": "Based on company website content; no independently verified client list or case studies were found.",
+  "slug": "gbit-consulting",
+  "date": "2026-07-17"
+}

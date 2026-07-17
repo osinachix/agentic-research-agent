@@ -1,0 +1,28 @@
+{
+  "competitor_name": "Iwosan Lagoon Hospitals",
+  "website": "https://www.lagoonhospitals.com/",
+  "sources": [
+    "https://nairametrics.com/2024/07/14/nigerias-largest-hospitals-and-the-private-investors-who-own-them/"
+  ],
+  "summary": "Leading private tertiary-care hospital group in Nigeria, the first in Sub-Saharan Africa to be JCI-accredited and reaccredited, now backed by Iwosan Investments.",
+  "offering": "Tertiary-level private clinical care across multiple specialties, positioned around international-quality standards.",
+  "pricing": {
+    "model": "Private-pay and insurance, premium tertiary-care positioning",
+    "tiers": [],
+    "notes": "No published price list; consultation/procedure-based billing typical of premium private hospitals."
+  },
+  "positioning": "The leading private tertiary-care organization in Nigeria, benchmarked against international quality standards (JCI accreditation).",
+  "strengths": [
+    "First hospital group in Sub-Saharan Africa to be JCI-accredited and reaccredited, a strong international quality signal",
+    "Backed by Iwosan Investments (2021 acquisition), providing capital for continued expansion",
+    "Multiple locations across key Lagos catchments (Ikoyi, Ikeja, Victoria Island)"
+  ],
+  "gaps_or_weaknesses": [
+    "Premium positioning may price out cost-sensitive patient segments",
+    "Concentrated in Lagos, with limited footprint outside the city/region"
+  ],
+  "perceived_target_customer": "Higher-income private-pay and insured patients in Lagos seeking internationally benchmarked tertiary care.",
+  "confidence_notes": "Ownership and accreditation history sourced from secondary press coverage (Nairametrics); no direct pricing or patient-volume data available publicly.",
+  "slug": "iwosan-lagoon-hospitals",
+  "date": "2026-07-17"
+}

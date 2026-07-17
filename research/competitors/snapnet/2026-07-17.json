@@ -1,0 +1,29 @@
+{
+  "competitor_name": "Snapnet Limited",
+  "website": "https://snapnetsolutions.com/",
+  "sources": [
+    "https://snapnetsolutions.com/about-us/",
+    "https://ng.linkedin.com/company/snapnetnigeria"
+  ],
+  "summary": "Lagos/Abuja-based ICT systems integrator positioning itself as the fastest-growing ICT firm in Nigeria, serving both private and public sector clients.",
+  "offering": "Bespoke IT solutions spanning software development, web design, cybersecurity, cloud computing, business consulting, and systems integration. A Tier 1 Microsoft Cloud Service Provider, with partnerships across Microsoft, Cisco, Nintex, Dell, IBM, HP, Oracle, Polycom, and Checkpoint.",
+  "pricing": {
+    "model": "Custom project/quote-based enterprise sales",
+    "tiers": [],
+    "notes": "No published price list; typical of enterprise systems-integration sales cycles."
+  },
+  "positioning": "Broad multi-vendor systems integrator and digital transformation partner for large private and public sector organizations.",
+  "strengths": [
+    "Broad multi-vendor technology partnerships (Microsoft, Cisco, IBM, Oracle) reduce single-vendor lock-in for clients",
+    "Tier 1 Microsoft Cloud Service Provider status signals scale and credibility",
+    "Dual-city presence (Lagos and Abuja) covering both private and public sector demand"
+  ],
+  "gaps_or_weaknesses": [
+    "Generalist breadth across many technology domains may dilute depth versus specialist competitors",
+    "Limited public case studies or pricing transparency compared to more digitally visible peers"
+  ],
+  "perceived_target_customer": "Mid-to-large private enterprises and public sector agencies needing systems integration and multi-vendor IT infrastructure.",
+  "confidence_notes": "Based on the company's own website and professional listings (LinkedIn, GoodFirms); no independent pricing, revenue, or customer-satisfaction data was found.",
+  "slug": "snapnet",
+  "date": "2026-07-17"
+}

@@ -1,0 +1,47 @@
+{
+  "snapnet": {
+    "canonical_name": "Snapnet Limited",
+    "domain": "https://snapnetsolutions.com/",
+    "first_seen": "2026-07-17"
+  },
+  "cloudsa-africa": {
+    "canonical_name": "Cloudsa Africa",
+    "domain": "https://www.cloudsa-africa.com/",
+    "first_seen": "2026-07-17"
+  },
+  "gbit-consulting": {
+    "canonical_name": "GBIT (Global Business & IT) Consulting Ltd",
+    "domain": "https://gbit-consulting.com/",
+    "first_seen": "2026-07-17"
+  },
+  "iwosan-lagoon-hospitals": {
+    "canonical_name": "Iwosan Lagoon Hospitals",
+    "domain": "https://www.lagoonhospitals.com/",
+    "first_seen": "2026-07-17"
+  },
+  "lily-hospitals": {
+    "canonical_name": "Lily Hospitals",
+    "domain": "https://lilyhospitals.com/",
+    "first_seen": "2026-07-17"
+  },
+  "reddington-hospital": {
+    "canonical_name": "Reddington Hospital",
+    "domain": "https://reddingtonhospital.com/",
+    "first_seen": "2026-07-17"
+  },
+  "dangote-group": {
+    "canonical_name": "Dangote Group",
+    "domain": "https://dangote.com/",
+    "first_seen": "2026-07-17"
+  },
+  "flour-mills-of-nigeria": {
+    "canonical_name": "Flour Mills of Nigeria Plc (FMN)",
+    "domain": "https://fmnplc.com/",
+    "first_seen": "2026-07-17"
+  },
+  "okomu-oil-palm": {
+    "canonical_name": "The Okomu Oil Palm Company Plc",
+    "domain": "https://okomunigeria.com/",
+    "first_seen": "2026-07-17"
+  }
+}

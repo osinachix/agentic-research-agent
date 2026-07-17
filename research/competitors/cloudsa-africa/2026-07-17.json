@@ -1,0 +1,29 @@
+{
+  "competitor_name": "Cloudsa Africa",
+  "website": "https://www.cloudsa-africa.com/",
+  "sources": [
+    "https://www.cloudsa-africa.com/cloudsa-microsoft-partner-in-nigeria/",
+    "https://cloudsa-africa.com/sath-the-parent-body-of-cloudsa-africa-wins-microsoft-partner-of-the-year-2023/"
+  ],
+  "summary": "Microsoft-centric cloud, security, and modern-work solutions provider, positioned as 'Africa's Leading Cloud Solution Provider' and a subsidiary of Signal Alliance Technology Holding (SATH).",
+  "offering": "Azure cloud setup/migration/management, Microsoft 365 and Dynamics 365 deployment, cybersecurity (Defender, Sentinel, Intune), and Power Apps solutions for digital transformation.",
+  "pricing": {
+    "model": "Microsoft licensing pass-through plus service/consulting fees",
+    "tiers": [],
+    "notes": "Quote-based; no published pricing tiers."
+  },
+  "positioning": "Deep Microsoft-ecosystem specialist for SMEs and enterprises undergoing cloud-led digital transformation, reinforced by a Microsoft Partner of the Year 2023 award via parent SATH.",
+  "strengths": [
+    "Deep single-vendor (Microsoft) specialization with recent award recognition (Partner of the Year 2023)",
+    "Backed by SATH's 25+ years of technology holding experience and credibility",
+    "Strong, modern digital marketing presence (case studies, SME-focused content) indicating well-developed digital-first customer acquisition"
+  ],
+  "gaps_or_weaknesses": [
+    "Microsoft-only stack narrows addressable scope versus multi-vendor integrators",
+    "Newer standalone brand name (Cloudsa) versus its longer-established parent (SATH) could dilute brand recognition"
+  ],
+  "perceived_target_customer": "SMEs and enterprises standardizing on the Microsoft ecosystem for cloud, security, and productivity.",
+  "confidence_notes": "Based on company website and press coverage of the Microsoft Partner of the Year award; customer volume and revenue are not publicly disclosed.",
+  "slug": "cloudsa-africa",
+  "date": "2026-07-17"
+}

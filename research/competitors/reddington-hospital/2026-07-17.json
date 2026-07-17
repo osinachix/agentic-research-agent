@@ -1,0 +1,28 @@
+{
+  "competitor_name": "Reddington Hospital",
+  "website": "https://reddingtonhospital.com/",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Reddington_Hospital"
+  ],
+  "summary": "Multi-specialist private hospital group that began as a specialized Cardiac Centre in 2001, now operating across Victoria Island, Lekki, and Ikeja.",
+  "offering": "Comprehensive emergency services and advanced cardiac care, plus general multi-specialty hospital services across three Lagos locations.",
+  "pricing": {
+    "model": "Private-pay",
+    "tiers": [],
+    "notes": "No published pricing found."
+  },
+  "positioning": "A 'one-stop healthcare facility' built on deep cardiac and emergency-care credibility, with an explicit patient-experience-forward tagline.",
+  "strengths": [
+    "Originated as a specialized Cardiac Centre, giving deep clinical credibility in a high-value specialty",
+    "Multiple Lagos locations (Victoria Island, Lekki, Ikeja) expanding reach within the city",
+    "Patient-experience-forward brand messaging ('every interaction... an opportunity') signals a CX focus"
+  ],
+  "gaps_or_weaknesses": [
+    "Shorter operating history than Lily Hospitals or St. Nicholas Hospital",
+    "Lagos-only footprint, with no stated national or international expansion"
+  ],
+  "perceived_target_customer": "Private-pay patients needing specialist cardiac/emergency care as well as general multi-specialty services in Lagos.",
+  "confidence_notes": "Based on the company website and Wikipedia; no independent clinical-outcome or patient-satisfaction data available.",
+  "slug": "reddington-hospital",
+  "date": "2026-07-17"
+}

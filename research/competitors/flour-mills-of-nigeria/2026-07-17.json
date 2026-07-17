@@ -1,0 +1,29 @@
+{
+  "competitor_name": "Flour Mills of Nigeria Plc (FMN)",
+  "website": "https://fmnplc.com/",
+  "sources": [
+    "https://www.fmnfoods.com/about-us/",
+    "https://en.wikipedia.org/wiki/Flour_Mills_of_Nigeria"
+  ],
+  "summary": "Founded in 1960, one of Nigeria's oldest and largest agro-allied FMCG companies, best known for its Golden Penny brand; delisted from the Nigerian Exchange in January 2025 after majority shareholder Excelsior Shipping acquired all minority shares.",
+  "offering": "Sugarcane cultivation and refining, flour milling, and production/distribution of pasta, noodles, margarine, vegetable oils, and refined sugar under the Golden Penny flagship brand and its agro-allied division.",
+  "pricing": {
+    "model": "Mass-market FMCG retail pricing",
+    "tiers": [],
+    "notes": "Standard retail/wholesale FMCG pricing; no B2B custom pricing published."
+  },
+  "positioning": "Legacy agro-allied FMCG leader under the tagline 'Feeding and Enriching Lives Every Day,' spanning the full value chain from cultivation to consumer food brands.",
+  "strengths": [
+    "65+ years of operating history and strong household brand recognition (Golden Penny)",
+    "Full value-chain integration from agricultural inputs to consumer-facing food products",
+    "Diversified product range (flour, pasta, noodles, oils, sugar) spreads demand risk across categories"
+  ],
+  "gaps_or_weaknesses": [
+    "Recent delisting (Jan 2025) reduces public financial transparency going forward",
+    "Legacy FMCG brand positioning may read as less innovation-forward than newer entrants"
+  ],
+  "perceived_target_customer": "Mass-market Nigerian and West African consumers of staple food products, plus B2B buyers of flour and agro-allied inputs.",
+  "confidence_notes": "Based on company site and Wikipedia; post-delisting financial detail is limited compared to when it was NSE-listed.",
+  "slug": "flour-mills-of-nigeria",
+  "date": "2026-07-17"
+}

@@ -1,0 +1,29 @@
+{
+  "competitor_name": "The Okomu Oil Palm Company Plc",
+  "website": "https://okomunigeria.com/",
+  "sources": [
+    "https://okomunigeria.com/profile/",
+    "https://okomunigeria.com/investors/"
+  ],
+  "summary": "Established in 1976 in Edo State and listed on the Nigerian Exchange, a major palm oil producer emphasizing sustainable, transparent plantation management.",
+  "offering": "Cultivation, processing, and sale of palm oil products, with an explicit sustainability and responsible tropical agriculture agenda.",
+  "pricing": {
+    "model": "Commodity agricultural pricing",
+    "tiers": [],
+    "notes": "Market-rate pricing for palm oil products; publicly traded, so financials are disclosed per NSE requirements."
+  },
+  "positioning": "A publicly accountable, sustainability-oriented agribusiness leader in Nigerian palm oil production.",
+  "strengths": [
+    "Nearly 50 years of plantation operating history and established scale in palm oil",
+    "Public listing on the Nigerian Exchange requires governance/financial transparency, which builds institutional trust",
+    "Explicit sustainability and responsible-agriculture positioning, increasingly valued by institutional and export buyers"
+  ],
+  "gaps_or_weaknesses": [
+    "Single-commodity focus (palm oil) versus diversified competitors like Dangote Group or FMN",
+    "Regional concentration in Edo State plantations limits geographic diversification of production risk"
+  ],
+  "perceived_target_customer": "Institutional and industrial buyers of palm oil, plus investors seeking exposure to a governance-compliant, publicly listed agribusiness.",
+  "confidence_notes": "Based on the company's own site; detailed pricing and yield data were not independently pulled this session.",
+  "slug": "okomu-oil-palm",
+  "date": "2026-07-17"
+}

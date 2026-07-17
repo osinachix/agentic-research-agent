@@ -1,0 +1,52 @@
+# Extracted from business/brand/logo.png and business/brand/source/brand_guidelines.png
+# Re-run the extraction (re-read those two images) if the source files change.
+
+company_name: "Nuvaix Group"
+tagline: "Innovate. Build. Deliver. Grow."
+brand_promise: "Innovating today. Building tomorrow. Growing together."
+
+colors:
+  primary: "#0A1D3D"      # Midnight Sapphire
+  secondary: "#C0C6CF"    # Titanium Silver
+  accent: "#D4AF37"       # Champagne Gold
+  text: "#1A1D21"         # Charcoal
+  background: "#FFFFFF"
+  supporting:
+    deep_navy: "#071226"
+    steel_gray: "#4D5563"
+    charcoal: "#1A1D21"
+    white: "#FFFFFF"
+
+fonts:
+  heading: "Montserrat"       # headings, titles, navigation, buttons
+  body: "Poppins"             # body text, paragraphs, long copy
+  fallback_stack: "Arial, Helvetica, sans-serif"
+  embedded_font_files: []     # both are widely available as web fonts (e.g. Google Fonts); no local files needed
+
+logo:
+  path: "business/brand/logo.png"
+  background: "black"         # circular badge mark supplied on a solid black square, no transparent cutout
+  clear_space: "equal to the height of the 'A' in NUVAIX, on all sides"
+  min_width_px: 160           # digital minimum per guideline (160px); print minimum is 30mm
+  approved_backgrounds:
+    - "matte obsidian black"
+    - "deep midnight gradient"
+    - "soft brushed metal"
+    - "pure black"
+    - "light / white background"
+    - "corporate photography"
+  usage_notes:
+    - "do not stretch"
+    - "do not change colors"
+    - "do not rotate"
+    - "do not add shadows"
+    - "do not place on busy backgrounds"
+    - "do not separate symbol and wordmark"
+
+report_defaults:
+  page_size: "A4"
+  footer_text: "Nuvaix Group — Innovate. Build. Deliver. Grow."
+
+source_images:
+  - "business/brand/logo.png"
+  - "business/brand/source/brand_guidelines.png"

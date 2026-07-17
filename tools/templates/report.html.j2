@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ content.business_name }} — Competitor Analysis</title>
+<style>
+  :root {
+    --color-primary: {{ brand.colors.primary }};
+    --color-secondary: {{ brand.colors.secondary }};
+    --color-accent: {{ brand.colors.accent }};
+    --color-text: {{ brand.colors.text }};
+    --color-bg: {{ brand.colors.background }};
+    --font-heading: "{{ brand.fonts.heading }}", {{ brand.fonts.fallback_stack }};
+    --font-body: "{{ brand.fonts.body }}", {{ brand.fonts.fallback_stack }};
+  }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0; color: var(--color-text); background: var(--color-bg);
+    font-family: var(--font-body); font-size: 11pt; line-height: 1.5;
+  }
+  h1, h2, h3, h4 { font-family: var(--font-heading); color: var(--color-primary); margin: 0 0 0.4em; }
+  .page { page-break-after: always; padding: 4mm 2mm; }
+  .page:last-child { page-break-after: auto; }
+
+  /* Cover page */
+  .cover {
+    background: var(--color-primary); color: var(--color-secondary);
+    height: 250mm; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; text-align: center; border-radius: 4px;
+  }
+  .cover img.logo { width: 42mm; margin-bottom: 10mm; }
+  .cover h1 { color: #FFFFFF; font-size: 26pt; margin-bottom: 4mm; }
+  .cover .subtitle { color: var(--color-accent); font-size: 13pt; letter-spacing: 0.06em; text-transform: uppercase; }
+  .cover .meta { margin-top: 14mm; color: var(--color-secondary); font-size: 10pt; }
+
+  section { margin-bottom: 8mm; }
+  .accent-rule { height: 2px; background: var(--color-accent); border: none; margin: 2mm 0 6mm; }
+
+  .exec-summary { background: #F5F6F7; border-left: 4px solid var(--color-accent); padding: 4mm 6mm; border-radius: 2px; }
+
+  .competitor-card {
+    border: 1px solid #E0E2E5; border-radius: 4px; padding: 5mm 6mm; margin-bottom: 5mm;
+    page-break-inside: avoid;
+  }
+  .competitor-card h3 { display: flex; justify-content: space-between; align-items: baseline; font-size: 13pt; }
+  .competitor-card .website { color: var(--color-secondary); font-size: 9pt; font-weight: normal; }
+  .competitor-card .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 3mm; }
+  .competitor-card ul { margin: 1mm 0; padding-left: 4mm; }
+  .label { font-family: var(--font-heading); font-size: 8.5pt; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-primary); margin-bottom: 1mm; }
+  .confidence-note { font-size: 8.5pt; color: #8A8F98; font-style: italic; margin-top: 2mm; }
+  .changes-box { margin-top: 3mm; background: #FFF9E8; border-left: 3px solid var(--color-accent); padding: 2mm 4mm; font-size: 9.5pt; }
+
+  table.matrix { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  table.matrix th, table.matrix td { border: 1px solid #E0E2E5; padding: 2mm 3mm; text-align: left; vertical-align: top; }
+  table.matrix th { background: var(--color-primary); color: #FFFFFF; font-family: var(--font-heading); font-weight: normal; }
+  table.matrix tr:nth-child(even) td { background: #FAFAFB; }
+
+  .chart-block { text-align: center; margin-bottom: 6mm; page-break-inside: avoid; }
+  .chart-block img { max-width: 100%; }
+  .chart-block .caption { font-size: 9pt; color: var(--color-secondary); margin-top: 2mm; }
+
+  ol.recommendations { padding-left: 5mm; }
+  ol.recommendations li { margin-bottom: 3mm; }
+
+  .division-heading {
+    background: var(--color-primary); color: #FFFFFF; padding: 3mm 5mm;
+    border-radius: 3px; margin-bottom: 4mm;
+  }
+  .division-heading h2 { color: #FFFFFF; margin: 0; }
+  .division-summary { color: var(--color-secondary); font-size: 9.5pt; margin: 1mm 0 0; }
+
+  .swot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .swot-box { border-radius: 3px; padding: 4mm 5mm; }
+  .swot-box h4 { font-size: 10.5pt; margin-bottom: 2mm; }
+  .swot-box.strengths { background: #EAF3EC; }
+  .swot-box.weaknesses { background: #FDECEC; }
+  .swot-box.opportunities { background: #EAF1FB; }
+  .swot-box.threats { background: #FBF1E4; }
+  .swot-box ul { margin: 0; padding-left: 4mm; }
+
+  table.action-plan { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  table.action-plan th, table.action-plan td { border: 1px solid #E0E2E5; padding: 2mm 3mm; text-align: left; vertical-align: top; }
+  table.action-plan th { background: var(--color-primary); color: #FFFFFF; font-family: var(--font-heading); font-weight: normal; }
+  table.action-plan tr:nth-child(even) td { background: #FAFAFB; }
+
+  .brand-assessment .block { margin-bottom: 3mm; }
+</style>
+</head>
+<body>
+
+<div class="page cover">
+  <img class="logo" src="{{ brand._logo_data_uri }}" alt="logo">
+  <h1>Competitor Analysis</h1>
+  <div class="subtitle">{{ content.business_name }}</div>
+  <div class="meta">Report date: {{ content.report_date }}</div>
+</div>
+
+<div class="page">
+  <section>
+    <h2>Executive Summary</h2>
+    <hr class="accent-rule">
+    <div class="exec-summary">{{ content.executive_summary }}</div>
+  </section>
+
+  {% if content.business_summary %}
+  <section>
+    <h2>Business Snapshot</h2>
+    <hr class="accent-rule">
+    <p>{{ content.business_summary }}</p>
+  </section>
+  {% endif %}
+
+  {% if content.swot %}
+  <section>
+    <h2>SWOT Analysis</h2>
+    <hr class="accent-rule">
+    <div class="swot-grid">
+      <div class="swot-box strengths"><h4>Strengths</h4><ul>{% for i in content.swot.strengths %}<li>{{ i }}</li>{% endfor %}</ul></div>
+      <div class="swot-box weaknesses"><h4>Weaknesses</h4><ul>{% for i in content.swot.weaknesses %}<li>{{ i }}</li>{% endfor %}</ul></div>
+      <div class="swot-box opportunities"><h4>Opportunities</h4><ul>{% for i in content.swot.opportunities %}<li>{{ i }}</li>{% endfor %}</ul></div>
+      <div class="swot-box threats"><h4>Threats</h4><ul>{% for i in content.swot.threats %}<li>{{ i }}</li>{% endfor %}</ul></div>
+    </div>
+  </section>
+  {% endif %}
+</div>
+
+{% for division in content.divisions %}
+<div class="page">
+  <div class="division-heading">
+    <h2>{{ division.name }}</h2>
+    {% if division.summary %}<div class="division-summary">{{ division.summary }}</div>{% endif %}
+  </div>
+
+  <section>
+    <h3>Competitor Profiles</h3>
+    {% for c in division.competitors %}
+    <div class="competitor-card">
+      <h3>{{ c.name }} <span class="website">{{ c.website }}</span></h3>
+      <p>{{ c.summary }}</p>
+      <div class="grid">
+        <div>
+          <div class="label">Offering</div>
+          <p>{{ c.offering }}</p>
+          <div class="label">Positioning</div>
+          <p>{{ c.positioning }}</p>
+          <div class="label">Target Customer</div>
+          <p>{{ c.perceived_target_customer }}</p>
+        </div>
+        <div>
+          <div class="label">Pricing</div>
+          <p>{{ c.pricing.model }}{% if c.pricing.notes %} — {{ c.pricing.notes }}{% endif %}</p>
+          <div class="label">Strengths</div>
+          <ul>{% for s in c.strengths %}<li>{{ s }}</li>{% endfor %}</ul>
+          <div class="label">Gaps / Weaknesses</div>
+          <ul>{% for g in c.gaps_or_weaknesses %}<li>{{ g }}</li>{% endfor %}</ul>
+        </div>
+      </div>
+      {% if c.changes_since_last_report %}
+      <div class="changes-box">
+        <div class="label">Changes Since Last Report</div>
+        <ul>{% for change in c.changes_since_last_report %}<li>{{ change }}</li>{% endfor %}</ul>
+      </div>
+      {% endif %}
+      {% if c.confidence_notes %}<div class="confidence-note">{{ c.confidence_notes }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  {% if division.comparison_matrix and division.comparison_matrix.rows %}
+  <section>
+    <h3>Comparison Matrix</h3>
+    <table class="matrix">
+      <thead>
+        <tr><th></th>{% for col in division.comparison_matrix.columns %}<th>{{ col }}</th>{% endfor %}</tr>
+      </thead>
+      <tbody>
+        {% for row in division.comparison_matrix.rows %}
+        <tr><th>{{ row.label }}</th>{% for v in row.cells %}<td>{{ v }}</td>{% endfor %}</tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  {% if division.charts %}
+  <section>
+    <h3>Market Visuals</h3>
+    {% for chart in division.charts %}
+    <div class="chart-block">
+      <img src="{{ chart._data_uri }}" alt="{{ chart.title }}">
+      <div class="caption">{{ chart.title }}</div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+</div>
+{% endfor %}
+
+<div class="page">
+  {% if content.growth_opportunities %}
+  <section>
+    <h2>High-Growth Opportunities</h2>
+    <hr class="accent-rule">
+    <ul>{% for g in content.growth_opportunities %}<li>{{ g }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  {% if content.brand_assessment %}
+  <section class="brand-assessment">
+    <h2>Brand Positioning Assessment</h2>
+    <hr class="accent-rule">
+    {% if content.brand_assessment.current_perception %}
+    <div class="block"><div class="label">Current Perception</div><p>{{ content.brand_assessment.current_perception }}</p></div>
+    {% endif %}
+    {% if content.brand_assessment.messaging_recommendations %}
+    <div class="block"><div class="label">Messaging</div><ul>{% for i in content.brand_assessment.messaging_recommendations %}<li>{{ i }}</li>{% endfor %}</ul></div>
+    {% endif %}
+    {% if content.brand_assessment.website_recommendations %}
+    <div class="block"><div class="label">Website</div><ul>{% for i in content.brand_assessment.website_recommendations %}<li>{{ i }}</li>{% endfor %}</ul></div>
+    {% endif %}
+    {% if content.brand_assessment.marketing_recommendations %}
+    <div class="block"><div class="label">Marketing</div><ul>{% for i in content.brand_assessment.marketing_recommendations %}<li>{{ i }}</li>{% endfor %}</ul></div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if content.charts %}
+  <section>
+    <h2>Market Visuals</h2>
+    <hr class="accent-rule">
+    {% for chart in content.charts %}
+    <div class="chart-block">
+      <img src="{{ chart._data_uri }}" alt="{{ chart.title }}">
+      <div class="caption">{{ chart.title }}</div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if content.action_plan %}
+  <section>
+    <h2>Prioritized Action Plan</h2>
+    <hr class="accent-rule">
+    <table class="action-plan">
+      <thead><tr><th>Initiative</th><th>Timeframe</th><th>Expected Impact</th><th>Rationale</th></tr></thead>
+      <tbody>
+        {% for item in content.action_plan %}
+        <tr><td>{{ item.initiative }}</td><td>{{ item.timeframe }}</td><td>{{ item.impact }}</td><td>{{ item.rationale }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  {% if content.recommendations %}
+  <section>
+    <h2>Recommendations</h2>
+    <hr class="accent-rule">
+    <ol class="recommendations">
+      {% for rec in content.recommendations %}<li>{{ rec }}</li>{% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+</div>
+
+</body>
+</html>

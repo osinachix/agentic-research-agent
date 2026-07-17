@@ -1,0 +1,29 @@
+{
+  "competitor_name": "Dangote Group",
+  "website": "https://dangote.com/",
+  "sources": [
+    "https://dangote.com/about-us/",
+    "https://en.wikipedia.org/wiki/Dangote_Group"
+  ],
+  "summary": "Africa's largest industrial conglomerate, operating in energy, cement, fertilizer, sugar, salt, and flour across 17 African countries, with three subsidiaries listed on the Nigerian Exchange.",
+  "offering": "Industrial-scale commodity production and distribution: cement (Africa's largest producer, ~55 million tonnes/year), sugar refining, salt (NASCON), fertilizer (world's second-largest urea plant), and an oil refinery, alongside food/agro-allied products.",
+  "pricing": {
+    "model": "Commodity/industrial market pricing",
+    "tiers": [],
+    "notes": "Pricing set by listed-subsidiary market dynamics (e.g. Dangote Cement, Dangote Sugar Refinery, NASCON); not a discretionary retail price list."
+  },
+  "positioning": "Scale and vertical-integration leader across Africa's industrial and agro-commodity value chains, framed around 'an empowered Africa.'",
+  "strengths": [
+    "Massive economies of scale across cement, sugar, salt, and fertilizer production",
+    "Deep vertical integration and distribution network spanning 17 African countries",
+    "Very high brand recognition and investor visibility via three NSE-listed subsidiaries"
+  ],
+  "gaps_or_weaknesses": [
+    "Commodity/industrial scale focus leaves less agility for niche, premium, or highly customized retail/agri segments",
+    "Broad conglomerate diversification could dilute brand focus versus specialized retail or agri-focused competitors"
+  ],
+  "perceived_target_customer": "Mass-market consumers and industrial/B2B buyers of commodity staples (sugar, flour-adjacent inputs, salt, cement) across Nigeria and Africa.",
+  "confidence_notes": "Based on the group's own website and Wikipedia; detailed financials and product-level pricing were not independently pulled this session.",
+  "slug": "dangote-group",
+  "date": "2026-07-17"
+}

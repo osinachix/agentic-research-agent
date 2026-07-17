@@ -1,0 +1,28 @@
+{
+  "competitor_name": "Lily Hospitals",
+  "website": "https://lilyhospitals.com/",
+  "sources": [
+    "https://lilyhospitals.com/about/"
+  ],
+  "summary": "Established in 1984, a long-running private healthcare network with multiple locations across Nigeria, emphasizing patient-centered, technology-driven care.",
+  "offering": "Multi-location private healthcare services positioned around responsive, patient-centered, technology-driven clinical care.",
+  "pricing": {
+    "model": "Private-pay",
+    "tiers": [],
+    "notes": "No published pricing found."
+  },
+  "positioning": "A leading private healthcare network in Nigeria, emphasizing longevity, responsiveness, and technology-driven care rather than a single-city premium play.",
+  "strengths": [
+    "40+ years of operating history builds trust and heritage",
+    "Broader geographic footprint across multiple Nigerian locations than single-city competitors",
+    "Explicit technology-driven care messaging aligns with rising digital-experience expectations"
+  ],
+  "gaps_or_weaknesses": [
+    "Less internationally recognized accreditation profile than JCI-accredited peers (e.g. Lagoon Hospitals)",
+    "Brand messaging reads as less premium/distinctive than some newer, higher-end competitors"
+  ],
+  "perceived_target_customer": "A broad private-pay patient base across multiple Nigerian regions, rather than solely the premium Lagos segment.",
+  "confidence_notes": "Based on the company's own About page; the 'technology-driven care' claim could not be independently verified from public sources.",
+  "slug": "lily-hospitals",
+  "date": "2026-07-17"
+}
